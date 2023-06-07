@@ -1,3 +1,3 @@
 # cnv-fbc
 
-Test repository
+Test repository for FBC.
