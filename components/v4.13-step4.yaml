@@ -1,0 +1,13 @@
+---
+schema: olm.package
+name: multicluster-engine
+defaultChannel: stable-2.4
+---
+schema: olm.channel
+package: multicluster-engine
+name: stable-2.4
+entries:
+- name: multicluster-engine.v2.4.0-23
+---
+schema: olm.bundle
+image: brew.registry.redhat.io/multicluster-engine/mce-operator-bundle@sha256:184b484a876aac34ca5dd672057d26de236f9b37229a7c938bded44b56150d39
